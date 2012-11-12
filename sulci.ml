@@ -67,6 +67,8 @@ struct
     output_string L.logfile "\n";
     flush L.logfile;
     T.write s str
+
+  let close = T.close
 end
 
 open XMPPClient
