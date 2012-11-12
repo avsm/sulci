@@ -63,3 +63,4 @@ true: debug
 <*.ml{,i}>: pkg_json-static
 <*.ml{,i}>: pkg_erm_treap
 # OASIS_STOP
+true: annot
